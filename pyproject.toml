@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scapy-usbbluetooth"
+version = "0.0.1"
+authors = [
+  { name="Antonio Vázquez Blanco", email="antoniovazquezblanco@gmail.com" },
+]
+description = "Scapy helpers to communicate with Bluetooth controllers"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "scapy",
+    "usbbluetooth"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/antoniovazquezblanco/scapy-usbbluetooth"
+"Bug Tracker" = "https://github.com/antoniovazquezblanco/scapy-usbbluetooth/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/scapy_usbbluetooth"]
