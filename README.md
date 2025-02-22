@@ -28,7 +28,7 @@ for dev in devices:
     print(dev)
 
 # Open a socket using a device
-s = UsbBluetoothSocket(devices[0])
+socket = UsbBluetoothSocket(devices[0])
 
 # Create a reset packet
 pkt = HCI_Hdr() / HCI_Command_Hdr() / HCI_Cmd_Reset()
