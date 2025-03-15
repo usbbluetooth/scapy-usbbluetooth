@@ -1,6 +1,7 @@
 # Scapy UsbBluetooth
 
 [![Build](https://github.com/antoniovazquezblanco/scapy-usbbluetooth/actions/workflows/build.yml/badge.svg)](https://github.com/antoniovazquezblanco/scapy-usbbluetooth/actions/workflows/build.yml)
+[![PyPI](https://img.shields.io/pypi/v/scapy-usbbluetooth)](https://pypi.org/project/scapy-usbbluetooth/)
 [![scapy-usbbluetooth](https://snyk.io/advisor/python/scapy-usbbluetooth/badge.svg)](https://snyk.io/advisor/python/scapy-usbbluetooth)
 
 This package contains code to allow Scapy sockets to communicate with Bluetooth controllers using [UsbBluetooth](https://github.com/antoniovazquezblanco/usbbluetooth).
