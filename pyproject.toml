@@ -1,10 +1,10 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
 name = "scapy-usbbluetooth"
-version = "0.0.1"
+dynamic = ["version"]
 authors = [
   { name="Antonio Vázquez Blanco", email="antoniovazquezblanco@gmail.com" },
 ]
@@ -26,3 +26,6 @@ dependencies = [
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/scapy_usbbluetooth"]
+
+[tool.hatch.version]
+source = "vcs"
