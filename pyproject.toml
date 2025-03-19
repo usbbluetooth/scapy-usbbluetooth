@@ -10,15 +10,24 @@ authors = [
 ]
 description = "Scapy helpers to communicate with Bluetooth controllers"
 readme = "README.md"
+license = { text="GPL-3.0-only" }
 requires-python = ">=3.0"
 classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Telecommunications Industry",
+    "Topic :: Security",
 ]
 dependencies = [
     "scapy",
     "usbbluetooth"
 ]
+keywords = [ "bluetooth" ]
 
 [project.urls]
 "Homepage" = "https://github.com/antoniovazquezblanco/scapy-usbbluetooth"

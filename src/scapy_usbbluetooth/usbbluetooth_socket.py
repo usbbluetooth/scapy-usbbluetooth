@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# Copyright 2025 - 2025, Antonio Vázquez Blanco and the scapy-usbbluetooth contributors
+# SPDX-License-Identifier: GPL-3.0-only
 
 import time
 from usbbluetooth import UsbBluetoothDevice
