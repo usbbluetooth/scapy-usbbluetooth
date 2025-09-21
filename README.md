@@ -7,7 +7,6 @@
 
 This package contains code to allow Scapy sockets to communicate with Bluetooth controllers using [UsbBluetooth](https://github.com/antoniovazquezblanco/usbbluetooth).
 
-
 ## Installation
 
 Just use pip :)
@@ -16,12 +15,16 @@ Just use pip :)
 pip install scapy-usbbluetooth
 ```
 
-
 ## Usage
+
+See the [examples](examples/) folder for sample code.
+
+A short illustrative sample usage can be as follows:
 
 ```python
 import usbbluetooth
 from scapy_usbbluetooth import UsbBluetoothSocket
+from scapy.layers.bluetooth import HCI_Hdr, HCI_Command_Hdr, HCI_Cmd_Reset
 
 
 # Get a list of all the available devices
