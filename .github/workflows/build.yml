@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["pypy3.9", "pypy3.10", "3.9", "3.10", "3.11", "3.12"]
+        python-version: ["pypy3.9", "pypy3.10", "3.9", "3.10", "3.11", "3.12", "3.13"]
 
     steps:
       - name: Checkout repository
@@ -48,7 +48,7 @@ jobs:
     - name: Download artifacts
       uses: actions/download-artifact@v5
       with:
-        name: scapy_usbbluetooth_python_3.12
+        name: scapy_usbbluetooth_python_3.13
         path: dist/
 
     - name: Publish distribution to PyPI
