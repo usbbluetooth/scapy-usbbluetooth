@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # SPDX-License-Identifier: GPL-3.0-only
-# Copyright 2025, Antonio Vázquez Blanco <antoniovazquezblanco@gmail.com>
+# SPDX-FileCopyrightText: 2025 Antonio Vázquez Blanco <antoniovazquezblanco@gmail.com>
 #
 # This example just uses usbbluetooth to list the available Bluetooth USB
 # devices attached to a machine.
@@ -13,7 +13,7 @@ import usbbluetooth
 
 def main():
     # Get a list of all the available devices
-    devices = usbbluetooth.list_devices()
+    devices = usbbluetooth.list_controllers()
     for dev in devices:
         print(dev)
 

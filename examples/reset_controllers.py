@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # SPDX-License-Identifier: GPL-3.0-only
-# Copyright 2025, Antonio Vázquez Blanco <antoniovazquezblanco@gmail.com>
+# SPDX-FileCopyrightText: 2025 Antonio Vázquez Blanco <antoniovazquezblanco@gmail.com>
 #
 # This example uses scapy-usbbluetooth to list the available Bluetooth USB
 # and attempts to send a reset command to each of them.
@@ -32,7 +32,7 @@ def reset_device(dev):
 
 def main():
     # Get a list of all the available devices
-    devices = usbbluetooth.list_devices()
+    devices = usbbluetooth.list_controllers()
     for dev in devices:
         reset_device(dev)
 
