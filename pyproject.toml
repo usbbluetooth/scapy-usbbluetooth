@@ -25,13 +25,13 @@ classifiers = [
 ]
 dependencies = [
     "scapy",
-    "usbbluetooth"
+    "usbbluetooth>=0.1.0"
 ]
 keywords = [ "bluetooth" ]
 
 [project.urls]
-"Homepage" = "https://github.com/antoniovazquezblanco/scapy-usbbluetooth"
-"Bug Tracker" = "https://github.com/antoniovazquezblanco/scapy-usbbluetooth/issues"
+"Homepage" = "https://github.com/usbbluetooth/scapy-usbbluetooth"
+"Bug Tracker" = "https://github.com/usbbluetooth/scapy-usbbluetooth/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/scapy_usbbluetooth"]

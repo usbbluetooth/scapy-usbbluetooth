@@ -1,9 +1,11 @@
 #!/usr/bin/env python
-# Copyright 2025 - 2025, Antonio Vázquez Blanco and the scapy-usbbluetooth contributors
+#
 # SPDX-License-Identifier: GPL-3.0-only
+# SPDX-FileCopyrightText: 2025 Antonio Vázquez Blanco <antoniovazquezblanco@gmail.com>
+#
 
 import time
-from usbbluetooth import UsbBluetoothDevice
+from usbbluetooth import Controller
 from scapy.compat import raw
 from scapy.data import MTU
 from scapy.layers.bluetooth import HCI_Hdr
@@ -11,7 +13,7 @@ from scapy.supersocket import SuperSocket
 
 
 class UsbBluetoothSocket(SuperSocket):
-    def __init__(self, dev: UsbBluetoothDevice) -> None:
+    def __init__(self, dev: Controller) -> None:
         self._dev = dev
         self._dev.open()
 
