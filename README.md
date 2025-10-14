@@ -5,7 +5,13 @@
 [![scapy-usbbluetooth](https://snyk.io/advisor/python/scapy-usbbluetooth/badge.svg)](https://snyk.io/advisor/python/scapy-usbbluetooth)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
 
-This package contains code to allow Scapy sockets to communicate with Bluetooth controllers using [UsbBluetooth](https://github.com/usbbluetooth/usbbluetooth).
+This package contains code to allow Scapy sockets to communicate with Bluetooth controllers using [UsbBluetooth for Python](https://github.com/usbbluetooth/usbbluetooth-python).
+
+For general documentation about the project, please visit [usbbluetooth.github.io](https://usbbluetooth.github.io/).
+
+For a barebones Python version of this library, check out [UsbBluetooth for Python](https://github.com/usbbluetooth/usbbluetooth-python).
+
+For other programming languages you may visit [UsbBluetooth for C](ttps://github.com/usbbluetooth/usbbluetooth) or [UsbBluetooth for C#](https://github.com/usbbluetooth/usbbluetooth-csharp).
 
 ## Installation
 
