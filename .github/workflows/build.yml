@@ -47,7 +47,7 @@ jobs:
       id-token: write
     steps:
     - name: Download artifacts
-      uses: actions/download-artifact@v5
+      uses: actions/download-artifact@v6
       with:
         name: scapy_usbbluetooth_python_3.13
         path: dist/
