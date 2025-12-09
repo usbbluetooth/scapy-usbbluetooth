@@ -17,6 +17,13 @@ class UsbBluetoothSocket(SuperSocket):
         self._dev = dev
         self._dev.open()
 
+    def __del__(self):
+        # Workarround to avoid the SEGFAULT case on libusb.
+        # self._dev.close() should not be called from a destructor.
+        # this disables SuperSocket.__del__ that calls UsbBluetoothSocket.close()
+        super().close()
+
+
     def send(self, x):
         # type: (Packet) -> int
         if HCI_Hdr not in x:
