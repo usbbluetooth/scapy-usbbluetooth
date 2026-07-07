@@ -3,6 +3,7 @@
 [![Build](https://github.com/usbbluetooth/scapy-usbbluetooth/actions/workflows/build.yml/badge.svg)](https://github.com/usbbluetooth/scapy-usbbluetooth/actions/workflows/build.yml)
 [![CodeQL](https://github.com/usbbluetooth/scapy-usbbluetooth/actions/workflows/codeql.yml/badge.svg)](https://github.com/usbbluetooth/scapy-usbbluetooth/actions/workflows/codeql.yml)
 [![PyPI](https://img.shields.io/pypi/v/scapy-usbbluetooth)](https://pypi.org/project/scapy-usbbluetooth/)
+[![Python versions](https://img.shields.io/pypi/pyversions/scapy-usbbluetooth.svg)](https://pypi.org/project/scapy-usbbluetooth/)
 [![Snyk package health](https://img.shields.io/badge/Snyk-package%20health-4C4A73?logo=snyk&logoColor=white)](https://snyk.io/advisor/python/scapy-usbbluetooth)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/usbbluetooth/scapy-usbbluetooth/badge)](https://scorecard.dev/viewer/?uri=github.com/usbbluetooth/scapy-usbbluetooth)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
