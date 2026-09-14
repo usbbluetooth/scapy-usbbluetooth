@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling", "hatch-vcs"]
+requires = ["hatchling>=1.27,<2", "hatch-vcs>=0.4,<0.6"]
 build-backend = "hatchling.build"
 
 [project]
@@ -11,7 +11,7 @@ authors = [
 description = "Scapy helpers to communicate with Bluetooth controllers"
 readme = "README.md"
 license = { text="GPL-3.0-only" }
-requires-python = ">=3.0"
+requires-python = ">=3.10"
 classifiers = [
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python :: 3",
@@ -24,8 +24,8 @@ classifiers = [
     "Topic :: Security",
 ]
 dependencies = [
-    "scapy",
-    "usbbluetooth>=0.1.0"
+    "scapy>=2.6.0,<3",
+    "usbbluetooth>=0.3.0,<1",
 ]
 keywords = [ "bluetooth" ]
 
