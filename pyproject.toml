@@ -11,7 +11,7 @@ authors = [
 description = "Scapy helpers to communicate with Bluetooth controllers"
 readme = "README.md"
 license = { text="GPL-3.0-only" }
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 classifiers = [
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python :: 3",
